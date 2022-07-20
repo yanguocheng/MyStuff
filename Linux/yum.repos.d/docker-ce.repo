@@ -1,0 +1,62 @@
+[docker-ce-stable]
+name=Docker CE Stable - x86_64
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable
+enabled=1
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+
+[docker-ce-stable-debuginfo]
+name=Docker CE Stable - Debuginfo x86_64
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/debug-x86_64/stable
+enabled=0
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+
+[docker-ce-stable-source]
+name=Docker CE Stable - Sources
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/source/stable
+enabled=0
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+
+[docker-ce-test]
+name=Docker CE Test - x86_64
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/test
+enabled=0
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+
+[docker-ce-test-debuginfo]
+name=Docker CE Test - Debuginfo x86_64
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/debug-x86_64/test
+enabled=0
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+
+[docker-ce-test-source]
+name=Docker CE Test - Sources
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/source/test
+enabled=0
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+
+[docker-ce-nightly]
+name=Docker CE Nightly - x86_64
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/nightly
+enabled=0
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+
+[docker-ce-nightly-debuginfo]
+name=Docker CE Nightly - Debuginfo x86_64
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/debug-x86_64/nightly
+enabled=0
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+
+[docker-ce-nightly-source]
+name=Docker CE Nightly - Sources
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/source/nightly
+enabled=0
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
